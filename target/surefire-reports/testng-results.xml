@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-09T08:53:00Z" name="TestSuite" finished-at="2021-09-09T08:55:11Z" duration-ms="131250">
+    <groups>
+    </groups>
+    <test started-at="2021-09-09T08:53:00Z" name="TestName" finished-at="2021-09-09T08:55:11Z" duration-ms="131250">
+      <class name="MainTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:53:00Z" name="setUP" finished-at="2021-09-09T08:53:21Z" duration-ms="21482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="start(utils.UtilNoteBook, int)[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:53:21Z" name="start" data-provider="data-provider" finished-at="2021-09-09T08:53:38Z" duration-ms="16331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UtilNoteBook{name='ASUS', min=32190, max=74120}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="shutdownMethods()[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:53:38Z" name="shutdownMethods" finished-at="2021-09-09T08:53:50Z" duration-ms="12007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownMethods -->
+        <test-method signature="start(utils.UtilNoteBook, int)[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:53:50Z" name="start" data-provider="data-provider" finished-at="2021-09-09T08:54:05Z" duration-ms="15049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UtilNoteBook{name='Lenovo', min=12500, max=87330}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="shutdownMethods()[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:54:05Z" name="shutdownMethods" finished-at="2021-09-09T08:54:15Z" duration-ms="9442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownMethods -->
+        <test-method signature="start(utils.UtilNoteBook, int)[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:54:15Z" name="start" data-provider="data-provider" finished-at="2021-09-09T08:54:29Z" duration-ms="14171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UtilNoteBook{name='DELL', min=32190, max=85490}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="shutdownMethods()[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:54:29Z" name="shutdownMethods" finished-at="2021-09-09T08:54:38Z" duration-ms="9159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownMethods -->
+        <test-method signature="start(utils.UtilNoteBook, int)[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:54:38Z" name="start" data-provider="data-provider" finished-at="2021-09-09T08:54:51Z" duration-ms="13447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UtilNoteBook{name='HONOR', min=32190, max=95490}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[90000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="shutdownMethods()[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:54:51Z" name="shutdownMethods" finished-at="2021-09-09T08:55:01Z" duration-ms="9250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownMethods -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MainTest@7668d560]" started-at="2021-09-09T08:55:01Z" name="afterClass" finished-at="2021-09-09T08:55:11Z" duration-ms="10462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- MainTest -->
+    </test> <!-- TestName -->
+  </suite> <!-- TestSuite -->
+</testng-results>

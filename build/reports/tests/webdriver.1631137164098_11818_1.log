@@ -1,0 +1,317 @@
+[1631137164.354][INFO]: Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 6095
+[1631137164.355][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1631137164.760][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/khomenko/IdeaProjects/autoTests/build/downloads/1631137163330_11818_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/khomenko/IdeaProjects/autoTests/build/downloads/1631137163330_11818_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1631137164.761][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/khomenko/IdeaProjects/autoTests/build/downloads/1631137163330_11818_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1631137164.761][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1631137164.762][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/bx/yk7bmhlj79336hqhl04mkfyh0000gn/T/.com.google.Chrome.jBt2GV data:,
+[1631137167.620][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137167.725][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137167.911][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "93.0.4577.63",
+      "chrome": {
+         "chromedriverVersion": "93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203})",
+         "userDataDir": "/var/folders/bx/yk7bmhlj79336hqhl04mkfyh0000gn/T/.com.google.Chrome.jBt2GV"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58706"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "01920f1d9333780a22a734e708d587f7"
+}
+[1631137168.159][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1631137168.159][INFO]: Waiting for pending navigations...
+[1631137168.162][INFO]: Done waiting for pending navigations. Status: ok
+[1631137168.268][INFO]: Waiting for pending navigations...
+[1631137168.269][INFO]: Done waiting for pending navigations. Status: ok
+[1631137168.269][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 47
+}
+[1631137168.283][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND Navigate {
+   "url": "https://market.yandex.ru"
+}
+[1631137168.284][INFO]: Waiting for pending navigations...
+[1631137168.284][INFO]: Done waiting for pending navigations. Status: ok
+[1631137168.448][INFO]: Waiting for pending navigations...
+[1631137168.984][INFO]: Done waiting for pending navigations. Status: ok
+[1631137169.086][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE Navigate
+[1631137176.186][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137176.186][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137176.189][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137176.416][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137176.416][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137176.420][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137176.635][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137176.636][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137176.641][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137176.856][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137176.857][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137176.860][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137177.074][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137177.074][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137177.077][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137177.292][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137177.293][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137177.296][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137177.505][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137177.505][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137177.508][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137177.717][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137177.718][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137177.723][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137177.937][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137177.937][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137177.941][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137178.148][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137178.149][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137178.152][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137178.361][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137178.362][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137178.367][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137178.578][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137178.579][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137178.582][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137178.791][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137178.791][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137178.794][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137179.002][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137179.003][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137179.006][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137179.212][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137179.213][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137179.218][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137179.428][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137179.428][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137179.432][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137179.649][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137179.649][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137179.653][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137179.860][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137179.861][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137179.867][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137180.078][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@class='_1KpjX _3UND8']"
+}
+[1631137180.078][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137180.084][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE FindElement ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137180.300][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1631137180.300][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137180.303][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE ExecuteScript ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137180.307][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND Screenshot {
+
+}
+[1631137180.308][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1631137180.310][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE Screenshot ERROR no such window: window was already closed
+  (Session info: chrome=93.0.4577.63)
+[1631137180.915][INFO]: [01920f1d9333780a22a734e708d587f7] COMMAND Quit {
+
+}
+[1631137180.966][INFO]: [01920f1d9333780a22a734e708d587f7] RESPONSE Quit
